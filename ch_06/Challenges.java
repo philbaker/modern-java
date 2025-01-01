@@ -27,4 +27,21 @@ public class Challenges {
         boolean zIsEven = z % 2 == 0;
         System.out.println(zIsEven);
     }
+
+    public static void challengeFour() {
+        // System.out.println(5 / 0); error
+    }
+
+    public static void challengeFive() {
+        int x = 5;
+        int y = -3;
+
+        System.out.println(x + y);
+    }
+
+    public static void challengeSix() {
+        System.out.println(
+            6 / 2 * (1 + 2)
+        );
+    }
 }
