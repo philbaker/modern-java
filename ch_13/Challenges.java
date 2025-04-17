@@ -62,4 +62,40 @@ public class Challenges {
             System.out.println();
         }
     }
+
+    public static void challengeSix() {
+        int width = 3;
+        int height = 6;
+
+        for (int i = 0; i < width; i++) {
+            for (int j = 0; j < height; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+    }
+
+    public static void printLine(int spaces, int stars) {
+        for (int s = 0; s < spaces; s++) {
+            System.out.print(" ");
+        }
+
+        for (int a = 0; a < stars; a++) {
+            System.out.print("*");
+        }
+
+        System.out.println();
+    }
+
+    public static void challengeSeven() {
+        int maxStars = 8;
+        int half = maxStars / 2;
+
+        for (int i = 1; i <= half; i++) {
+            int stars = i * 2;
+            int spaces = maxStars - stars;
+            printLine(spaces / 2, stars);
+        }
+    }
 }
