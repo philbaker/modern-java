@@ -1,0 +1,7 @@
+/**
+ * BokedCharacter
+ */
+public class BokedCharacter {
+
+    
+}
