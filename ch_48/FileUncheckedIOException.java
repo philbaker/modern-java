@@ -8,6 +8,7 @@ import java.io.UncheckedIOException;
 
 // Note that in general checked exceptions should be used for predictable but 
 // unpreventable errors that are reasonable to recover from
+// Unchecked exceptions should be used for everything else 
 
 public class FileUncheckedIOException {
     void main() {
