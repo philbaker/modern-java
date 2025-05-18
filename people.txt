@@ -1,3 +1,0 @@
-Steve Smith,15
-Stan Smith,42
-Rodger,1601

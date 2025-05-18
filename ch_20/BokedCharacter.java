@@ -1,7 +1,0 @@
-/**
- * BokedCharacter
- */
-public class BokedCharacter {
-
-    
-}
